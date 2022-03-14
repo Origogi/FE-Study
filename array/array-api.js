@@ -44,7 +44,7 @@ const students = [
 
 // Q5. find a student with the score 90
 {
-  const score90 = students.find((item) => item.score == 90);
+  const score90 = students.find((item) => item.score === 90);
   console.log(score90);
 }
 
@@ -63,7 +63,8 @@ const students = [
 
 // Q8. check if there is a student with the score lower than 50
 {
-  const has = students.find((item) => item.score <= 50) != undefined;
+  // const has = students.find((item) => item.score <= 50) != undefined;
+  const has = students.some((item) => item.score <= 50);
   console.log(has);
 }
 
