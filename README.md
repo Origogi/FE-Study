@@ -1,6 +1,10 @@
-# JS 기초 공부
+# Front-End 스터디
 
-JS를 공부하기 위한 레포지토리
+Front End 를 공부하기 위한 레포지토리
+
+- JavaScript
+- CSS
+- HTML
 
 ## 참고 자료
 
